@@ -1,9 +1,14 @@
-import { ImageSource, Sound, Resource, Loader } from 'excalibur'
+import { ImageSource, Sound, Resource, Loader, Gif } from 'excalibur'
 
 // voeg hier jouw eigen resources toe
 const Resources = {
+    Water: new ImageSource('images/water.jpg'),
     Fish: new ImageSource('images/fish.png'),
-    Shark: new ImageSource('images/shark.png')
+    Shark: new ImageSource('images/shark.png'),
+    // Ugh: new ImageSource('images/among-us-twerk.gif'),
+    Bone: new ImageSource('images/bones.png'),
+    Bubble: new ImageSource('images/bubble.png')
+
 }
 
 

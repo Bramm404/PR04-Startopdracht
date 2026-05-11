@@ -1,5 +1,13 @@
 # Excalibur Startproject 2026
 
+Indiana James triggered a trap he really shoudn't have deep within the jungle, triggering a zombie outbreak! Fight through waves of all manner of zombies to escape the jungle!
+
+
+
+
+<br><br><br>
+
+
 - Ga naar [https://github.com/HR-CMGT/prg4-startproject-2026](https://github.com/HR-CMGT/prg4-startproject-2026)
 - Klik op ***USE THIS TEMPLATE > CREATE A NEW REPOSITORY***. Dit kopieert het project naar jouw eigen github.
 - Vanaf je *eigen github* kopieer je de `git url` (onder de "code" button).

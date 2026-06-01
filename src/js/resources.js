@@ -6,7 +6,8 @@ const Resources = {
     Fish: new ImageSource('images/fish.png'),
     Shark: new ImageSource('images/shark.png'),
     Bone: new ImageSource('images/bones.png'),
-    Bubble: new ImageSource('images/bubble.png')
+    Bubble: new ImageSource('images/bubble.png'),
+    Mine: new ImageSource('images/mine.png')
 
 }
 

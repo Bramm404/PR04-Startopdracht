@@ -1,17 +1,17 @@
 import {Resources, ResourceLoader } from "./resources.js";
-import {Actor, randomInRange, Vector} from 'excalibur'
+import {Actor, randomInRange, Vector, Keys} from 'excalibur'
 
 export class Fish extends Actor {
 
     constructor(){
-        super();
+        super({width: Resources.Fish.width, height: Resources.Fish.height});
         console.log('blub')
     }
 
     onInitialize(engine) {
         this.graphics.use(Resources.Fish.toSprite());
-        this.pos = new Vector(640,360);
-        this.vel = new Vector(randomInRange(-1250, 50) + 50, randomInRange(-20,20));
+        this.pos = new Vector(randomInRange(0, 1280), randomInRange(0, 720));
+        this.vel = new Vector(randomInRange(-200, 200), randomInRange(-200,200));
         
         this.graphics.flipHorizontal = this.vel > 0;
 
@@ -20,7 +20,7 @@ export class Fish extends Actor {
         
     }
     fishLeft(e) {
-            e.target.pos = new Vector(680,360);
+            e.target.pos = new Vector(randomInRange(0, 1280), randomInRange(0, 720));
             let vx = 0;
     
             while(vx === 0) {
